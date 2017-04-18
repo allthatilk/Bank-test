@@ -36,5 +36,5 @@ I want the date of all transactions to be recorded on bank statements.
 
 ## Technologies used:
 
-Javascript
-Jasmine
+* Javascript
+* Jasmine
