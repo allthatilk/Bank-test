@@ -34,6 +34,7 @@ So that I can keep accurate customer accounts,
 I want the date of all transactions to be recorded on bank statements.
 ```
 
-## Technology used:
+## Technologies used:
 
 Javascript
+Jasmine
