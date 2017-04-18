@@ -31,7 +31,7 @@ I want the customer's account balance to be calculated automatically.
 ```
 As a bank clerk,
 So that I can keep accurate customer accounts,
-I want the date of all transactions to be recorded on bank statements.
+I want the details of all transactions to be recorded on bank statements (date, deposit or withdrawal amount, account balance).
 ```
 
 ## Technologies used:
