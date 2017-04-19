@@ -1,5 +1,6 @@
 describe("Bank Account Statement", function() {
   var account = new Account()
+  var statement = new Statement(account)
 
   beforeEach(function() {
     account.deposit(100)
@@ -14,7 +15,7 @@ describe("Bank Account Statement", function() {
 
   describe("can be printed", function() {
     it("and accurately displays transaction details", function() {
-      expect(account.printStatement()).toEqual (
+      expect(statement.print()).toEqual (
         `date || credit || debit || balance\n\
 ${transactionDate()} || 100 || - || 100\n\
 ${transactionDate()} || 300 || - || 400\n\
