@@ -38,9 +38,9 @@ describe("Bank Account", function() {
     it("by accurately recording transaction details", function() {
       account.deposit(100)
       account.withdraw(10)
-      expect(account.transactionRecord).toEqual(
-        [["18/04/2017", "credit", 100, 100],["18/04/2017", "debit", 10, 90]]
-      )
+      expect(account.transactionRecord).toEqual([
+        Object({ date: transactionDate(), credit: 100, debit: '-', balance: 100 }), Object({ date: transactionDate(), credit: '-', debit: 10, balance: 90 })
+      ])
     })
   })
 })
