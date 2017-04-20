@@ -38,3 +38,11 @@ I want the details of all transactions to be recorded on bank statements (date, 
 
 * Javascript
 * Jasmine
+
+## How to use
+
+* clone this repo
+* cd jasmine
+* open index.html
+* run functions in console
+* open SpecRunner.html if you want to run the tests
